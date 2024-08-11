@@ -1,42 +1,114 @@
 h1 {
-    color: #8A74BE;
-    font-size: 2em;
+  color: #8a74be;
+  font-size: 2em;
 }
-h3, h2 {
-    color: #8A74BE;
+h2 {
+  color: #8a74be;
 }
+
+h3 {
+  color: #262626;
+}
+
 body {
-    background-color: #E2E5DE;
-    color: #262626;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 20px;
-    text-align: center;
+  background-color: #e2e5de;
+  color: #262626;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 20px;
+  text-align: center;
 }
-ul {
-    background-color: #EFF2F4;
-    color: #CD5C5C;
-    font-family: monospace;
-    font-style: italic;
-    line-height: 30px;
-    text-align: center;
-}
-.writtenName {
-    text-decoration:underline;
+
+.sectionsMe {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding-top: 30px;
 }
 
 .interests {
-    width:100%;
+  background-color: #8a74be;
+  position: absolute;
+  align-content: top;
+  text-align: center;
+  border: solid thin;
+  border-color: #262626;
+  width: 30%;
+  height: 300px;
+  position: relative;
 }
 
-ul, img {
-    border-style: solid;
-    border-color: #262626;
-    border-width: thin;
+.technologies {
+  background-color: #8a74be;
+  align-content: top;
+  text-align: center;
+  border: solid thin;
+  border-color: #262626;
+  width: 30%;
+  height: 300px;
+  position: relative;
+  margin-left: 60px;
+  margin-right: 60px;
+}
+
+.hobbies {
+  background-color: #8a74be;
+  align-content: top;
+  text-align: center;
+  border: solid thin;
+  border-color: #262626;
+  width: 30%;
+  height: 300px;
+  position: relative;
+}
+
+div.sectionsMe ul {
+  background-color: #eff2f4;
+  color: #8a74be;
+  font-family: monospace;
+  font-style: italic;
+  line-height: 30px;
+  text-align: center;
+  width: 80%;
+  height: auto;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+div.sectionsMe div:hover {
+  background-color: #cd5c5c;
+}
+
+div.sectionsMe ul li:nth-child(odd) {
+  color: #cd5c5c;
+}
+
+.writtenName {
+  text-decoration: underline;
+}
+
+ul,
+img {
+  border-style: solid;
+  border-color: #262626;
+  border-width: thin;
 }
 
 .geoState {
-    font-weight: bold;
+  font-weight: bold;
 }
+
+.boxMe {
+  width: 90%;
+  margin-left: 30px;
+  display: flex;
+  align-items: center;
+}
+
 .description {
-    width: 100%;
+  margin-bottom: 10px;
+  margin-left: 15px;
+  position: relative;
+  text-align: left;
 }
