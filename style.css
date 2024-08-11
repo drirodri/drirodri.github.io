@@ -88,7 +88,7 @@ div.sectionsMe ul li:nth-child(odd) {
   text-decoration: underline;
 }
 
-ul,
+.sectionsMe ul,
 img {
   border-style: solid;
   border-color: #262626;
@@ -114,6 +114,46 @@ img {
 }
 
 div.sectionsMe ul li:hover {
-    color: #262626;
-    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
-  }
+  color: #262626;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+header {
+  align-items: center;
+}
+
+.navLinks {
+  border: solid thin;
+  background-color: #cd5c5c;
+}
+
+.navLinks ul {
+  display: block;
+}
+
+.navLinks li {
+  color: #8a74be;
+  margin-left: 20px;
+  margin-right: 20px;
+  list-style-type: none;
+  display: inline;
+}
+
+a {
+  text-decoration: none;
+  color: #cd5c5c;
+}
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  color: #8a74be;
+}
+
+.navLinks a {
+  color: #262626;
+  font-weight: 400;
+}
+.navLinks a:hover {
+  font-weight: bold;
+}
