@@ -1,0 +1,42 @@
+h1 {
+    color: #8A74BE;
+    font-size: 2em;
+}
+h3, h2 {
+    color: #8A74BE;
+}
+body {
+    background-color: #E2E5DE;
+    color: #262626;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
+ul {
+    background-color: #EFF2F4;
+    color: #CD5C5C;
+    font-family: monospace;
+    font-style: italic;
+    line-height: 30px;
+    text-align: center;
+}
+.writtenName {
+    text-decoration:underline;
+}
+
+.interests {
+    width:100%;
+}
+
+ul, img {
+    border-style: solid;
+    border-color: #262626;
+    border-width: thin;
+}
+
+.geoState {
+    font-weight: bold;
+}
+.description {
+    width: 100%;
+}
