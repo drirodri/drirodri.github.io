@@ -112,3 +112,8 @@ img {
   position: relative;
   text-align: left;
 }
+
+div.sectionsMe ul li:hover {
+    color: #262626;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+  }
