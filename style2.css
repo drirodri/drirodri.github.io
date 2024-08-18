@@ -304,6 +304,9 @@ footer::before {
   .boxMe {
     flex-direction: column;
     padding: 3px;
+    text-align: left;
+  }
+  .boxMe h2 {
     text-align: center;
   }
   .boxMe img.myself {
