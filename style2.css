@@ -331,4 +331,10 @@ footer::before {
     height: 150px;
     text-align: center;
   }
+  footer ul {
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+  }
 }
