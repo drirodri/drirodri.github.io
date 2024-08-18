@@ -200,3 +200,40 @@ footer ul {
 footer li {
   display: inline;
 }
+
+header button {
+  position: absolute;
+  border: solid thin;
+  border-radius: 20px;
+  top: 0;
+  right: 0;
+  color: #e2e5de;
+  background-color: #262626;
+  width: 100px;
+  height: 30px;
+  transition: all 150ms ease-in-out;
+}
+header button:hover {
+    color: #8a74be;
+    cursor: pointer;
+}
+
+header button::after,
+header button::before {
+  content: "";
+  position: absolute;  
+  width: 100px;
+  height: 30px;
+  background: #8a74be;
+  z-index: -1;
+  padding: 2px;
+  top:50%;
+  left: 50%;
+  border-radius: 100px;
+  translate: -50% -50%;
+}
+
+header button::before {
+  filter: blur(1rem);
+  opacity: 0.5;
+}
